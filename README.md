@@ -10,6 +10,6 @@ The data used in this program is download from the online [IXI Dataset](http://b
 
 ### Deep Learning Structure: Modified U-Net
 The model employed in this work is based on [U-Net](https://arxiv.org/abs/1505.04597). The specific structure consists a down-convolution path and an up-convolution path with skip connections. The idea is that the features extracted during the down-sampling path as well as the up-convolution path are all used to recover an aliasing free image.
-<img src="https://github.com/mxf293/Image_De-aliasing/blob/master/Model%20Structure.jpg" width="600" height="400">
+<img src="https://github.com/mxf293/Image_De-aliasing/blob/master/Model%20Structure.jpg" width="520" height="400">
 
 ### Results
