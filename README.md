@@ -19,7 +19,7 @@ The model employed in this work is based on [U-Net](https://arxiv.org/abs/1505.0
 #### Training
 The dataset is split into 95% training set and 5% test set. In order to monitor the progress of loss and prevent overfitting, the training set is further divided into 95% actual training set and 5% validation set. Since no regularizer is incorporated, early stopping is used. The program is written with Keras package and run on four NVIDIA K80 (12G) GPUs.
 
-### Results
-The power of the U-Net de-aliasing is showcased in the figure below. The modified U-Net model is able to remove the ringing artifact and the recon image presents much sharper edges and more detailed structures than the aliased image. Quantitatively, cosine similarity is used to evaluate the distance between the aliased/reconstructed images and the ground truth image. The average cosine distance between the aliased images and the ground truth images is 0.1042 whereas its counterpart between U-Net reconstructed images and the ground truth images is 0.0317.
+### Results and Evaluation
+The power of the U-Net de-aliasing is showcased in the figure below. The modified U-Net model is able to remove the ringing artifact and the recon image presents much sharper edges and more detailed structures than the aliased image. Quantitatively, cosine similarity is used to evaluate the distance between the aliased/reconstructed images and the ground truth image. The average cosine distance between the aliased images and the ground truth images is 0.1085 whereas its counterpart between U-Net reconstructed images and the ground truth images is 0.0349.
 
 <img src="https://github.com/mxf293/Image_De-aliasing/blob/master/Aliased%20Image%20-%20Recon%20Image%20-%20Ground%20Truth.png" width="1200" height="300">
