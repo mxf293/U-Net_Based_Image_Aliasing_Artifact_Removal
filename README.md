@@ -1,4 +1,4 @@
-# U-Net Based Image De-aliasing
+# U-Net Based Image Aliasing Artifact Removal
 Learn and remove the 2D image aliasing artifacts caused by undersampled Fourier space using a modified U-Net structure.
 
 ### Introduction
